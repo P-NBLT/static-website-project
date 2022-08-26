@@ -6,21 +6,65 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* Variables */
+
+:root {
+  --grey: #83869a;
+  --dark-blue: #13183f;
+  --dark-blue-hover: #666ca3;
+  --pink: #ffa7c3;
+  --pink-fluo: #f74780;
+  --gradient-orange: linear-gradient(#ff6f48, #f02aa6);
+  --gradient-purple: linear-gradient(#4851ff, #f02aa6);
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+/* global classes pre defined */
+
+.headingXl {
+  font-family: var(--font-jakarta);
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 0.8em;
+}
+
+.headingL {
+  font-family: var(--font-jakarta);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 0.8em;
+}
+
+.headingM {
+  font-family: var(--font-jakarta);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 0.8em;
+}
+
+.headingS {
+  font-family: var(--font-jakarta);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 0.8em;
+}
+
+.bodyM {
+  font-family: var(--font-jakarta);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 0.64em;
+}
+
+.bodyMbold {
+  font-family: var(--font-jakarta);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 0.64em;
 }
