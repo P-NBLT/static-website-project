@@ -1,0 +1,33 @@
+.default {
+  border: none;
+  border-radius: 28px;
+  padding: 19px 32px 19px 32px;
+  color: white;
+}
+
+.primary {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.primary:hover {
+  background-color: var(--dark-blue-hover);
+}
+
+.secondary {
+  border-radius: 31.5px;
+  height: 63px;
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+}
+
+.secondary:hover {
+  opacity: 0.5;
+}
+
+.ternary {
+  background-image: var(--gradient-purple);
+}
+
+.ternary:hover {
+  opacity: 0.5;
+}

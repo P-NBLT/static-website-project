@@ -21,6 +21,7 @@ body {
   --pink: #ffa7c3;
   --pink-fluo: #f74780;
   --gradient-orange: linear-gradient(#ff6f48, #f02aa6);
+  --gradient-orange: linear-gradient(#ff6f48, #f02aa6);
   --gradient-purple: linear-gradient(#4851ff, #f02aa6);
   --font-jakarta: "Plus Jakarta Sans", sans-serif;
 }
@@ -67,4 +68,20 @@ body {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 0.64em;
+}
+
+.MoleculeGlobal_mg_Hz {
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 500px) {
+  .MoleculeGlobal_mg_Hz {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .MoleculeGlobal_mg_Hz {
+    margin-left: 165px;
+  }
 }

@@ -1,10 +1,25 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import { Title, SubTitle, Button } from "../component/atoms";
+import fetchContentul from "../util/contentfulPost";
 
-export default function Home() {
+async function getStaticProps() {
+  const res = await fetchContentul();
+  const posts = await res.map((post) => post.fields);
+
+  return {
+    props: {
+      posts,
+    },
+  };
+}
+
+export default function Home({ posts }) {
+  console.log(posts);
+
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="Static Website" />
@@ -16,6 +31,15 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <Button className="bodyM" variant="default primary">
+        Get Started
+      </Button>
+      <Button className="bodyM" variant="default secondary">
+        Get Started
+      </Button>
+      <Button className="bodyM" variant="default ternary">
+        Get Started
+      </Button>
     </div>
   );
 }
