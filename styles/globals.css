@@ -4,11 +4,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-image: url("../media/image-hero-mobile.webp");
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position-y: 433px;
-  background-position-x: -25px;
 }
 
 * {
@@ -98,7 +93,7 @@ body {
   font-weight: 500;
   line-height: 1.6em;
   color: var(--grey);
-  max-width: 398px;
+  max-width: 400px;
   border: 1px solid red;
 }
 
@@ -111,8 +106,33 @@ body {
   margin: 26px 0 24px 0;
 }
 
+.buttonFont {
+  font-family: var(--font-jakarta);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 0.57em;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url("../media/image-hero-mobile.webp");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 433px;
+    background-position-x: -35px;
+  }
+}
+
 /* tablet */
 @media screen and (min-width: 500px) {
+  body {
+    background-image: url("../media/image-hero-tablet.webp");
+    background-repeat: no-repeat;
+    background-size: 585px;
+    background-position-x: 50vw;
+    background-position-y: -10vh;
+  }
+
   .MoleculeGlobal_mg_Hz {
     margin-left: 39px;
     margin-right: 40px;

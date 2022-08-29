@@ -34,7 +34,7 @@ export default function Home({ contentful }) {
       </Head>
       <Navbar className="MoleculeGlobal_mg_Hz mg-tp-bt-nav">
         <img src={logoDark.src} />
-        <Button className="bodyM" variant="default primary">
+        <Button className="buttonFont" variant="defaultSmall primary">
           {contentful.textButton}
         </Button>
       </Navbar>

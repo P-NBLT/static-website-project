@@ -5,6 +5,13 @@
   color: white;
 }
 
+.defaultSmall {
+  border: none;
+  border-radius: 28px;
+  padding: 18.25px 20px 18.25px 20px;
+  color: white;
+}
+
 .primary {
   background-color: var(--dark-blue);
   color: white;
