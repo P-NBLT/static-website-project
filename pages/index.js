@@ -1,22 +1,29 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Title, SubTitle, Button } from "../component/atoms";
-import fetchContentul from "../util/contentfulPost";
+import {
+  Title,
+  SubTitle,
+  Button,
+  HeadContainer,
+  Navbar,
+} from "../component/atoms";
+import { fetchContentul } from "../util/contentfulPost";
+import logoDark from "../media/logo-dark.svg";
 
-async function getStaticProps() {
+export async function getStaticProps() {
   const res = await fetchContentul();
-  const posts = await res.map((post) => post.fields);
+  const contentful = await res.fields;
 
   return {
     props: {
-      posts,
+      contentful,
     },
   };
 }
 
-export default function Home({ posts }) {
-  console.log(posts);
+export default function Home({ contentful }) {
+  console.log(contentful);
 
   return (
     <div>
@@ -24,22 +31,22 @@ export default function Home({ posts }) {
         <title>Create Next App</title>
         <meta name="description" content="Static Website" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
-          rel="stylesheet"
-        />
       </Head>
-      <Button className="bodyM" variant="default primary">
-        Get Started
-      </Button>
-      <Button className="bodyM" variant="default secondary">
-        Get Started
-      </Button>
-      <Button className="bodyM" variant="default ternary">
-        Get Started
-      </Button>
+      <Navbar className="MoleculeGlobal_mg_Hz mg-tp-bt-nav">
+        <img src={logoDark.src} />
+        <Button className="bodyM" variant="default primary">
+          {contentful.textButton}
+        </Button>
+      </Navbar>
+      <HeadContainer className="MoleculeGlobal_mg_Hz">
+        <Title className="heading">{contentful.titlePage}</Title>
+        <SubTitle className="body mg_tp_bt_header">
+          {contentful.paragrapheIntro}
+        </SubTitle>
+        <Button className="bodyM" variant="default secondary">
+          {contentful.textButton}
+        </Button>
+      </HeadContainer>
     </div>
   );
 }

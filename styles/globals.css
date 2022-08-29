@@ -4,6 +4,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("../media/image-hero-mobile.webp");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position-y: 433px;
+  background-position-x: -25px;
 }
 
 * {
@@ -21,7 +26,6 @@ body {
   --pink: #ffa7c3;
   --pink-fluo: #f74780;
   --gradient-orange: linear-gradient(#ff6f48, #f02aa6);
-  --gradient-orange: linear-gradient(#ff6f48, #f02aa6);
   --gradient-purple: linear-gradient(#4851ff, #f02aa6);
   --font-jakarta: "Plus Jakarta Sans", sans-serif;
 }
@@ -33,6 +37,7 @@ body {
   font-size: 3.5rem;
   font-weight: 800;
   line-height: 0.8em;
+  color: var(--dark-blue);
 }
 
 .headingL {
@@ -40,6 +45,7 @@ body {
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 0.8em;
+  color: var(--dark-blue);
 }
 
 .headingM {
@@ -47,6 +53,7 @@ body {
   font-size: 2rem;
   font-weight: 800;
   line-height: 0.8em;
+  color: var(--dark-blue);
 }
 
 .headingS {
@@ -61,6 +68,7 @@ body {
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 0.64em;
+  color: var(--grey);
 }
 
 .bodyMbold {
@@ -72,16 +80,63 @@ body {
 
 .MoleculeGlobal_mg_Hz {
   margin-left: 16px;
+  margin-right: 16px;
 }
 
+.heading {
+  font-family: var(--font-jakarta);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 0.8em;
+  color: var(--dark-blue);
+  max-width: 326px;
+}
+
+.body {
+  font-family: var(--font-jakarta);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6em;
+  color: var(--grey);
+  max-width: 398px;
+  border: 1px solid red;
+}
+
+.mg-tp-bt-nav {
+  margin-top: 16px;
+  margin-bottom: 38px;
+}
+
+.mg_tp_bt_header {
+  margin: 26px 0 24px 0;
+}
+
+/* tablet */
 @media screen and (min-width: 500px) {
   .MoleculeGlobal_mg_Hz {
-    margin-left: 40px;
+    margin-left: 39px;
+    margin-right: 40px;
+  }
+
+  .mg-tp-bt-nav {
+    margin-top: 24px;
+    margin-bottom: 99px;
+  }
+
+  .body {
+    font-size: 1rem;
   }
 }
 
+/* desktop */
 @media screen and (min-width: 1000px) {
   .MoleculeGlobal_mg_Hz {
     margin-left: 165px;
+    margin-right: 165px;
+  }
+
+  .mg-tp-bt-nav {
+    margin-top: 24px;
+    margin-bottom: 172px;
   }
 }
