@@ -109,7 +109,7 @@ body {
   font-family: var(--font-jakarta);
   font-size: 1rem;
   font-weight: 500;
-  line-height: 0.57em;
+  /* line-height: 0.57em; */
 }
 
 @media screen and (max-width: 500px) {
@@ -146,6 +146,11 @@ body {
   .body {
     font-size: 1rem;
   }
+
+  .buttonFont {
+    font-size: 1.125rem;
+    line-height: 1.75em;
+  }
 }
 
 /* desktop */
@@ -153,10 +158,10 @@ body {
   body {
     background-image: url("../media/image-hero-desktop.webp");
 
-    background-size: 936px;
+    background-size: 948px;
     /* background-size: */
     background-position-x: 54.4vw;
-    background-position-y: -65px;
+    background-position-y: -95px;
   }
 
   .MoleculeGlobal_mg_Hz {

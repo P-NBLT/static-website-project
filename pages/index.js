@@ -43,7 +43,7 @@ export default function Home({ contentful }) {
         <SubTitle className="body mg_tp_bt_header">
           {contentful.paragrapheIntro}
         </SubTitle>
-        <Button className="bodyM" variant="default secondary">
+        <Button className="buttonFont" variant="default secondary">
           {contentful.textButton}
         </Button>
       </HeadContainer>

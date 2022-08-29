@@ -1,14 +1,14 @@
 .default {
   border: none;
   border-radius: 28px;
-  padding: 19px 32px 19px 32px;
+  padding: 18px 32px 18px 32px;
   color: white;
 }
 
 .defaultSmall {
   border: none;
   border-radius: 28px;
-  padding: 18.25px 25px 18.25px 25px;
+  padding: 14px 25px 14px 25px;
   color: white;
 }
 
@@ -23,7 +23,7 @@
 
 .secondary {
   border-radius: 31.5px;
-  height: 63px;
+
   background-image: linear-gradient(#ff6f48, #f02aa6);
 }
 
@@ -37,4 +37,24 @@
 
 .ternary:hover {
   opacity: 0.5;
+}
+
+@media screen and (min-width: 500px) {
+  .default {
+    padding: 12.25px 32px 12.25px 32px;
+  }
+
+  .defaultSmall {
+    padding: 8.25px 25px 8.25px 25px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .default {
+    padding: 15.75px 32px 15.75px 32px;
+  }
+
+  .defaultSmall {
+    padding: 12.25px 33px 12.25px 33px;
+  }
 }
