@@ -82,7 +82,7 @@ body {
   font-family: var(--font-jakarta);
   font-size: 2.5rem;
   font-weight: 800;
-  line-height: 0.8em;
+  line-height: 1.26em;
   color: var(--dark-blue);
   max-width: 326px;
 }
@@ -93,8 +93,7 @@ body {
   font-weight: 500;
   line-height: 1.6em;
   color: var(--grey);
-  max-width: 400px;
-  border: 1px solid red;
+  max-width: 398px;
 }
 
 .mg-tp-bt-nav {
@@ -128,9 +127,10 @@ body {
   body {
     background-image: url("../media/image-hero-tablet.webp");
     background-repeat: no-repeat;
-    background-size: 585px;
-    background-position-x: 50vw;
-    background-position-y: -10vh;
+    /* background-size: 600px; */
+    background-size: clamp(580px, 78%, 600px), clamp(580px, 78%, 600px);
+    background-position-x: 55vw;
+    background-position-y: -65px;
   }
 
   .MoleculeGlobal_mg_Hz {
@@ -150,6 +150,15 @@ body {
 
 /* desktop */
 @media screen and (min-width: 1000px) {
+  body {
+    background-image: url("../media/image-hero-desktop.webp");
+
+    background-size: 936px;
+    /* background-size: */
+    background-position-x: 54.4vw;
+    background-position-y: -65px;
+  }
+
   .MoleculeGlobal_mg_Hz {
     margin-left: 165px;
     margin-right: 165px;
@@ -158,5 +167,22 @@ body {
   .mg-tp-bt-nav {
     margin-top: 24px;
     margin-bottom: 172px;
+  }
+
+  .heading {
+    font-family: var(--font-jakarta);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.26em;
+    color: var(--dark-blue);
+    max-width: 457px;
+  }
+
+  .body {
+    font-size: 1.125rem;
+    max-width: 444px;
+  }
+  .mg_tp_bt_header {
+    margin: 29px 0 40px 0;
   }
 }
