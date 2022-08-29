@@ -39,6 +39,7 @@
   opacity: 0.5;
 }
 
+/* tablet */
 @media screen and (min-width: 500px) {
   .default {
     padding: 12.25px 32px 12.25px 32px;
@@ -49,6 +50,7 @@
   }
 }
 
+/* desktop */
 @media screen and (min-width: 1000px) {
   .default {
     padding: 15.75px 32px 15.75px 32px;

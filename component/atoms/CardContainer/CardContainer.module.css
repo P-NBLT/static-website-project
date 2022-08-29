@@ -1,0 +1,30 @@
+.container {
+  background-image: linear-gradient(#ffff, #f0f1ff);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 11px;
+    row-gap: 54px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    column-gap: 30px;
+    row-gap: 80px;
+  }
+}
+
+@media screen and(min-width: 1441px) {
+  .container {
+    margin-left: 11.46%;
+    margin-right: 11.46%;
+  }
+}
