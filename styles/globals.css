@@ -267,11 +267,6 @@ body {
     width: 114px;
   }
 
-  .logo-pic {
-    width: 89;
-    /* height: 23px; */
-  }
-
   .MoleculeGlobal_mg_Hz {
     margin-left: 165px;
     margin-right: 165px;
@@ -333,7 +328,7 @@ body {
     width: 340px;
   }
   .footer {
-    padding: 40px 11.45%;
+    padding: 40px 165px;
   }
 }
 
