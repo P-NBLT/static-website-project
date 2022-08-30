@@ -1,0 +1,30 @@
+.body {
+  font-family: var(--font-jakarta);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6em;
+  color: var(--grey);
+  max-width: 398px;
+}
+
+.mg_tp_bt_header {
+  margin: 26px 0 24px 0;
+}
+
+@media screen and (min-width: 500px) {
+  .body {
+    font-size: 1rem;
+    max-width: 52%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .body {
+    font-size: 1.125rem;
+    max-width: 444px;
+  }
+
+  .mg_tp_bt_header {
+    margin: 29px 0 40px 0;
+  }
+}

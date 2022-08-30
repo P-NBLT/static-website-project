@@ -1,0 +1,28 @@
+import styles from "./HeadContainer.module.css";
+import Proptypes from "prop-types";
+import { Title, SubTitle, Button } from "../../atoms";
+
+const HeadContainer = ({
+  children,
+  titleContent,
+  paragraphContent,
+  buttonContent,
+  ...props
+}) => {
+  return (
+    <section className={`${styles.card} ${props.className}`}>
+      <Title font="heading">{titleContent}</Title>
+      <SubTitle font="body" margin="mg_tp_bt_header">
+        {paragraphContent}
+      </SubTitle>
+      <Button font="buttonFont" variant="default secondary">
+        {buttonContent}
+      </Button>
+    </section>
+  );
+};
+
+HeadContainer.propTypes = {
+  className: Proptypes.string,
+};
+export default HeadContainer;

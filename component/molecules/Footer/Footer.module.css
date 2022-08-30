@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+  padding: 36px 16px;
+}
+
+@media screen and (min-width: 500px) {
+  .footer {
+    padding: 36px 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer {
+    padding: 40px 165px;
+  }
+}

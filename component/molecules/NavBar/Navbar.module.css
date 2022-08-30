@@ -1,0 +1,25 @@
+.nav {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mg-tp-bt-nav {
+  margin-top: 16px;
+  margin-bottom: 38px;
+}
+
+@media screen and (min-width: 500px) {
+  .mg-tp-bt-nav {
+    margin-top: 24px;
+    margin-bottom: 99px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .mg-tp-bt-nav {
+    margin-top: 24px;
+    margin-bottom: 172px;
+  }
+}

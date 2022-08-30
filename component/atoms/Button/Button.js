@@ -2,12 +2,16 @@ import styles from "./Button.module.css";
 import { variantclassNameHelper } from "../../../util/functionHelper";
 import PropTypes from "prop-types";
 
-const Button = ({ children, variant, ...props }) => {
-  console.log(props.className);
+const Button = ({ children, variant, font, ...props }) => {
   const arrVariant = variantclassNameHelper(variant, styles);
 
   return (
-    <button className={`${arrVariant} ${props.className}`}>{children}</button>
+    <button
+      {...props}
+      className={`${arrVariant} ${styles[font]} ${props.className}`}
+    >
+      {children}
+    </button>
   );
 };
 

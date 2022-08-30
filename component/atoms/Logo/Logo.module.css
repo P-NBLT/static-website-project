@@ -1,0 +1,9 @@
+.logo-pic {
+  width: 89px;
+}
+
+@media screen and (min-width: 1000px) {
+  .logo-pic {
+    width: 114px;
+  }
+}

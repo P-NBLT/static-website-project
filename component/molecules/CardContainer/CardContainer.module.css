@@ -5,6 +5,11 @@
   row-gap: 40px;
 }
 
+.mg-card-container {
+  margin-top: 413px;
+  padding-bottom: 80px;
+}
+
 @media screen and (min-width: 500px) {
   .container {
     flex-direction: row;
@@ -13,6 +18,9 @@
     row-gap: 54px;
     justify-content: center;
   }
+  .mg-card-container {
+    margin-top: 186px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -20,11 +28,22 @@
     column-gap: 30px;
     row-gap: 80px;
   }
+  .mg-card-container {
+    margin-top: 226px;
+    width: 100%;
+  }
 }
 
 @media screen and(min-width: 1441px) {
   .container {
     margin-left: 11.46%;
     margin-right: 11.46%;
+  }
+}
+
+@media screen and (min-width: 1460px) {
+  .masterContainerCourse {
+    padding-left: 11.46%;
+    padding-right: 11.46%;
   }
 }

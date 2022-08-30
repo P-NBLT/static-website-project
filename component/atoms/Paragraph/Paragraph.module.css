@@ -1,0 +1,67 @@
+.headingCard-title-only {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.33em;
+  color: white;
+  padding: 24px 29px 32px 28px;
+  margin: 0 16px 0 16px;
+}
+
+.bodyCard {
+  font-family: var(--font-jakarta);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6em;
+  color: var(--grey);
+  max-width: 286px;
+}
+
+.cta {
+  font-family: var(--font-jakarta);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 0.64em;
+  color: var(--pink-fluo);
+  width: fit-content;
+}
+.mg-text-card {
+  margin: 0 29px 24px 28px;
+}
+
+.mg-cta-card {
+  margin: 0 29px 32px 28px;
+}
+
+@media screen and (min-width: 500px) {
+  .headingCard-title-only {
+    padding: 56px 21px 139px 32px;
+    margin: 0;
+    width: 340px;
+  }
+  .mg-text-card {
+    margin: 0 21px 24px 32px;
+  }
+
+  .mg-cta-card {
+    margin: 0 29px 32px 32px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .headingCard-title-only {
+    padding: 56px 21px 139px 32px;
+    margin: 0;
+    width: 340px;
+  }
+  .bodyCard {
+    font-size: 1.125rem;
+  }
+  .mg-text-card {
+    margin: 0 32px 92px 32px;
+  }
+
+  .mg-cta-card {
+    position: absolute;
+    top: 254px;
+  }
+}

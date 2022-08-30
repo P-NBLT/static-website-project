@@ -1,11 +1,18 @@
 import Proptypes from "prop-types";
+import { classNameBuilderHelper } from "../../../util/functionHelper";
+import styles from "./Title.module.css";
 
-const Title = ({ children, variant, ...props }) => {
-  return <h1 {...props}>{children}</h1>;
+const Title = ({ children, font, margin, ...props }) => {
+  const classNames = classNameBuilderHelper([font, margin], styles);
+  return (
+    <h1 {...props} className={classNames}>
+      {children}
+    </h1>
+  );
 };
 
 Title.propTypes = {
-  variant: Proptypes.string,
+  font: Proptypes.string,
   className: Proptypes.string,
 };
 

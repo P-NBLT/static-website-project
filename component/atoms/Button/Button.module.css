@@ -39,6 +39,12 @@
   opacity: 0.5;
 }
 
+.buttonFont {
+  font-family: var(--font-jakarta);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 /* tablet */
 @media screen and (min-width: 500px) {
   .default {
@@ -47,6 +53,11 @@
 
   .defaultSmall {
     padding: 8.25px 25px 8.25px 25px;
+  }
+
+  .buttonFont {
+    font-size: 1.125rem;
+    line-height: 1.75em;
   }
 }
 

@@ -27,157 +27,12 @@ body {
 
 /* global classes pre defined */
 
-.headingXl {
-  font-family: var(--font-jakarta);
-  font-size: 3.5rem;
-  font-weight: 800;
-  line-height: 0.8em;
-  color: var(--dark-blue);
-}
-
-.headingL {
-  font-family: var(--font-jakarta);
-  font-size: 2.5rem;
-  font-weight: 800;
-  line-height: 0.8em;
-  color: var(--dark-blue);
-}
-
-.headingM {
-  font-family: var(--font-jakarta);
-  font-size: 2rem;
-  font-weight: 800;
-  line-height: 0.8em;
-  color: var(--dark-blue);
-}
-
-.headingS {
-  font-family: var(--font-jakarta);
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 0.8em;
-  color: var(--dark-blue);
-}
-
-.bodyM {
-  font-family: var(--font-jakarta);
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 0.64em;
-  color: var(--grey);
-}
-
-.bodyMbold {
-  font-family: var(--font-jakarta);
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 0.64em;
-}
-
 .MoleculeGlobal_mg_Hz {
   margin-left: 16px;
   margin-right: 16px;
 }
-
-.heading {
-  font-family: var(--font-jakarta);
-  font-size: 2.5rem;
-  font-weight: 800;
-  line-height: 1.26em;
-  color: var(--dark-blue);
-  max-width: 326px;
-}
-
-.body {
-  font-family: var(--font-jakarta);
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 1.6em;
-  color: var(--grey);
-  max-width: 398px;
-}
-.bodyCard {
-  font-family: var(--font-jakarta);
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.6em;
-  color: var(--grey);
-  max-width: 286px;
-}
-
-.mg-tp-bt-nav {
-  margin-top: 16px;
-  margin-bottom: 38px;
-}
-
-.mg_tp_bt_header {
-  margin: 26px 0 24px 0;
-}
-
-.mg-card-container {
-  margin-top: 413px;
-  padding-bottom: 80px;
-}
-
 .mg-logo {
   margin: -24px 0 0 28px;
-}
-
-.mg-title-card {
-  margin: 24px 29px 16px 28px;
-}
-
-.mg-text-card {
-  margin: 0 29px 24px 28px;
-}
-
-.mg-cta-card {
-  margin: 0 29px 32px 28px;
-}
-
-.buttonFont {
-  font-family: var(--font-jakarta);
-  font-size: 1rem;
-  font-weight: 500;
-  /* line-height: 0.57em; */
-}
-.logo-pic {
-  width: 89px;
-}
-
-.headingCard {
-  font-family: var(--font-jakarta);
-  font-size: 1.25rem;
-  font-weight: 800;
-  line-height: 1.26em;
-  color: var(--dark-blue);
-  width: fit-content;
-}
-
-.headingCard-title-only {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.33em;
-  color: white;
-  padding: 24px 29px 32px 28px;
-  margin: 0 16px 0 16px;
-}
-
-.cta {
-  font-family: var(--font-jakarta);
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 0.64em;
-  color: var(--pink-fluo);
-  width: fit-content;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--dark-blue);
-  padding: 36px 16px;
 }
 
 /* mobile only for background image */
@@ -209,56 +64,8 @@ body {
     margin-left: 39px;
     margin-right: 40px;
   }
-
-  .mg-tp-bt-nav {
-    margin-top: 24px;
-    margin-bottom: 99px;
-  }
-
-  .heading {
-    width: 42%;
-    max-width: 326px;
-  }
-
-  .body {
-    font-size: 1rem;
-    max-width: 52%;
-  }
-
-  .buttonFont {
-    font-size: 1.125rem;
-    line-height: 1.75em;
-  }
-
-  /* Card Couses Section */
-  .mg-card-container {
-    margin-top: 186px;
-  }
-
   .mg-logo {
     margin: -24px 0 0 32px;
-  }
-
-  .mg-title-card {
-    margin: 24px 21px 16px 32px;
-  }
-
-  .mg-text-card {
-    margin: 0 21px 24px 32px;
-  }
-
-  .mg-cta-card {
-    margin: 0 29px 32px 32px;
-  }
-
-  .headingCard-title-only {
-    padding: 56px 21px 139px 32px;
-    margin: 0;
-    width: 340px;
-  }
-
-  .footer {
-    padding: 36px 40px;
   }
 }
 
@@ -272,78 +79,11 @@ body {
     background-position-y: -95px;
   }
 
-  .logo-pic {
-    width: 114px;
-  }
-
   .MoleculeGlobal_mg_Hz {
     margin-left: 165px;
     margin-right: 165px;
   }
-
-  .mg-tp-bt-nav {
-    margin-top: 24px;
-    margin-bottom: 172px;
-  }
-
-  .heading {
-    font-family: var(--font-jakarta);
-    font-size: 3.5rem;
-    font-weight: 800;
-    line-height: 1.26em;
-    color: var(--dark-blue);
-    max-width: 457px;
-  }
-
-  .body {
-    font-size: 1.125rem;
-    max-width: 444px;
-  }
-  .mg_tp_bt_header {
-    margin: 29px 0 40px 0;
-  }
-
-  /* Card courses section */
-
-  .bodyCard {
-    font-size: 1.125rem;
-  }
-
-  .mg-card-container {
-    margin-top: 226px;
-    width: 100%;
-  }
-
-  .mg-logo {
-    margin: -24px 0 0 32px;
-  }
-
-  .mg-title-card {
-    margin: 24px 32px 16px 32px;
-  }
-
-  .mg-text-card {
-    margin: 0 32px 92px 32px;
-  }
-
-  .mg-cta-card {
-    position: absolute;
-    top: 254px;
-  }
-
-  .headingCard-title-only {
-    padding: 56px 21px 139px 32px;
-    margin: 0;
-    width: 340px;
-  }
-  .footer {
-    padding: 40px 165px;
-  }
-}
-
-@media screen and (min-width: 1460px) {
-  .masterContainerCourse {
-    padding-left: 11.46%;
-    padding-right: 11.46%;
+  .logo-pic {
+    width: 114px;
   }
 }
