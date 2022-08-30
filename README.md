@@ -15,7 +15,7 @@
 App demo
 ---
 
-![video](/media/static-web-demo.mov)
+![Alt Text](/media/static-web.gif)
 
 
 # Used technologies and concepts
