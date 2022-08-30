@@ -8,7 +8,7 @@
 
 - [App demo](#app-demo)
 - [Used technologies and concepts](#used-technologies-and-concepts)
-- Goal for this project
+- [Goal for this project](#Goal-for-this-project)
 
 ---
 
@@ -20,12 +20,15 @@ App demo
 
 # Used technologies and concepts
 ---
+## 👇 Click links to see code sample in this project 👇
 
-- [Next for UI building](https://github.com/P-NBLT/static-website-project/blob/main/pages/index.js)
-- [Contentful as CMS](https://github.com/P-NBLT/static-website-project/blob/main/util/contentfulPost.js)
-- [StoryBook for documentation]
+- [Next for UI building](https://github.com/P-NBLT/static-website-project/blob/main/pages/index.js) 🐣
+- [Contentful as CMS](https://github.com/P-NBLT/static-website-project/blob/main/util/contentfulPost.js) 🐣
+- [StoryBook for documentation] 🐣
 - [Reusable atoms](https://github.com/P-NBLT/static-website-project/blob/main/component/atoms/Button/Button.js)
 - [Molecule design](https://github.com/P-NBLT/static-website-project/blob/main/component/molecules/CardContainer/CardContainer.js)
+
+🐣 *New technology learned during this project*
 
 # Goal for this project
 ---
