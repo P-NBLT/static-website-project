@@ -199,7 +199,10 @@ body {
     /* background-size: 600px; */
     background-size: clamp(580px, 78%, 600px), clamp(580px, 78%, 600px);
     background-position-x: 55vw;
+    /* background-position-x: 42vw; */
+    background-position-x: clamp(10px, 55vw, 57vw);
     background-position-y: -65px;
+    /* background-position-y: 0px; */
   }
 
   .MoleculeGlobal_mg_Hz {
@@ -212,8 +215,14 @@ body {
     margin-bottom: 99px;
   }
 
+  .heading {
+    width: 42%;
+    max-width: 326px;
+  }
+
   .body {
     font-size: 1rem;
+    max-width: 52%;
   }
 
   .buttonFont {
