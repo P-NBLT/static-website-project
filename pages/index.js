@@ -8,18 +8,16 @@ import {
   HeadContainer,
   Navbar,
   Card,
-  CardContainer,
   Paragraph,
+  Logo,
 } from "../component/atoms";
 import { fetchContentul } from "../util/contentfulPost";
-import logoDark from "../media/logo-dark.svg";
-import logoLight from "../media/logo-light.svg";
 import animation from "../media/icon-animation.svg";
 import design from "../media/icon-design.svg";
 import photography from "../media/icon-photography.svg";
 import crypto from "../media/icon-crypto.svg";
 import business from "../media/icon-business.svg";
-import Footer from "../component/molecules/Footer/Footer";
+import { Footer, CardContainer } from "../component/molecules";
 
 export async function getStaticProps() {
   const res = await fetchContentul();
@@ -43,7 +41,7 @@ export default function Home({ contentful }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar className="MoleculeGlobal_mg_Hz mg-tp-bt-nav">
-        <img src={logoDark.src} className="logo-pic" />
+        <Logo variant="dark" />
         <Button className="buttonFont" variant="defaultSmall primary">
           {contentful.textButton}
         </Button>
@@ -73,7 +71,7 @@ export default function Home({ contentful }) {
         </Card>
       </CardContainer>
       <Footer className="footer">
-        <img src={logoLight.src} className="logo-pic" />
+        <Logo variant="light" />
         <Button className="buttonFont" variant="defaultSmall ternary">
           {contentful.textButton}
         </Button>

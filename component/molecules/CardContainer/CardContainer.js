@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Card from "../Card/Card";
-import Title from "../Title/Title";
-import Paragraph from "../Paragraph/Paragraph";
+import { Card, Title, Paragraph } from "../../atoms";
 import styles from "./CardContainer.module.css";
 
 const CardContainer = ({ children, data, ...props }) => {
@@ -12,11 +10,7 @@ const CardContainer = ({ children, data, ...props }) => {
     content = data.title.map((el, idx) => {
       console.log(data.pic[idx].src);
       return (
-        <Card
-          style={{ position: "relative" }}
-          //   className="MoleculeGlobal_mg_Hz"
-          variant="card-white"
-        >
+        <Card style={{ position: "relative" }} variant="card-white">
           <img className="mg-logo" src={data.pic[idx].src} />
           <Title className="headingCard mg-title-card">{data.title[idx]}</Title>
           <Paragraph className="bodyCard mg-text-card">
