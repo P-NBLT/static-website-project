@@ -15,7 +15,7 @@
 App demo
 ---
 
-![](/media/static-web-demo)
+![](/media/static-web-demo.mov)
 
 
 # Used technologies and concepts
