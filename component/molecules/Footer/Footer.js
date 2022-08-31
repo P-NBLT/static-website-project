@@ -18,6 +18,9 @@ const Footer = ({ children, contentful, variant, ...props }) => {
   );
 };
 
-Footer.propTypes = {};
+Footer.propTypes = {
+  variant: PropTypes.string,
+  contentful: PropTypes.string.isRequired,
+};
 
 export default Footer;

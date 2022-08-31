@@ -5,7 +5,6 @@ import { Button, Logo } from "../../atoms";
 
 const Navbar = ({ children, contentful, margin, ...props }) => {
   const classNames = classNameBuilderHelper([margin], styles);
-  console.log(classNames);
   return (
     <div className={`${styles.nav} ${classNames} ${props.className}`}>
       <Logo variant="dark" size="logo-pic" />
@@ -16,5 +15,9 @@ const Navbar = ({ children, contentful, margin, ...props }) => {
   );
 };
 
-Navbar.propTypes = {};
+Navbar.propTypes = {
+  className: Proptypes.string,
+  margin: Proptypes.string,
+  contentful: Proptypes.string.isRequired,
+};
 export default Navbar;

@@ -13,7 +13,7 @@ const Title = ({ children, font, margin, ...props }) => {
 
 Title.propTypes = {
   font: Proptypes.string,
-  className: Proptypes.string,
+  margin: Proptypes.string,
 };
 
 export default Title;

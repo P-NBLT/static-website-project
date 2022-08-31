@@ -13,6 +13,7 @@ const Logo = ({ variant, size, ...props }) => {
 
 Logo.propTypes = {
   variant: PropTypes.oneOf(["light", "dark"]),
+  size: PropTypes.string,
 };
 
 export default Logo;

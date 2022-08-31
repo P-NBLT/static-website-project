@@ -24,5 +24,8 @@ const HeadContainer = ({
 
 HeadContainer.propTypes = {
   className: Proptypes.string,
+  titleContent: Proptypes.string.isRequired,
+  paragraphContent: Proptypes.string.isRequired,
+  buttonContent: Proptypes.string.isRequired,
 };
 export default HeadContainer;

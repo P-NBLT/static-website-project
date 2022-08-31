@@ -8,6 +8,9 @@ const Paragraph = ({ children, font, margin, ...props }) => {
   return <div className={classNames}>{children}</div>;
 };
 
-Paragraph.propTypes = {};
+Paragraph.propTypes = {
+  font: PropTypes.string,
+  margin: PropTypes.string,
+};
 
 export default Paragraph;

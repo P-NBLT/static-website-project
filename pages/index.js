@@ -26,8 +26,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ contentful }) {
-  console.log(contentful);
-
   return (
     <div>
       <Head>

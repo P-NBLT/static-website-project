@@ -10,7 +10,7 @@ const client = createClient({
 
 export async function fetchContentul() {
   const entries = await client.getEntries();
-  console.log("hey", entries);
+
   if (entries.items) return entries.items[0];
 
   console.log(`Error: ${err}`);

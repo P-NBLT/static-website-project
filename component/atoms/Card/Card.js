@@ -10,6 +10,9 @@ function Card({ children, variant, data, ...props }) {
   );
 }
 
-Card.propTypes = {};
+Card.propTypes = {
+  variant: PropTypes.string,
+  data: PropTypes.object,
+};
 
 export default Card;

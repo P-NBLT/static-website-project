@@ -4,24 +4,13 @@ import { Card, Title, Paragraph } from "../../atoms";
 import styles from "./CardContainer.module.css";
 import { classNameBuilderHelper } from "../../../util/functionHelper";
 
-const CardContainer = ({
-  children,
-  font,
-  margin,
-  masterMargin,
-  container,
-  data,
-  ...props
-}) => {
-  const classNames = classNameBuilderHelper(
-    [font, margin, masterMargin, container],
-    styles
-  );
+const CardContainer = ({ children, margin, masterMargin, data, ...props }) => {
+  const classNames = classNameBuilderHelper([margin, masterMargin], styles);
   let content;
   if (data) {
     content = data.titles.map((el, idx) => {
       return (
-        <Card style={{ position: "relative" }} variant="card-white">
+        <Card style={{ position: "relative" }} variant="card-white" key={idx}>
           <img className="mg-logo" src={data.pic[idx].src} />
           <Title font="headingCard" margin="mg-title-card">
             {data.titles[idx]}
@@ -47,6 +36,10 @@ const CardContainer = ({
   );
 };
 
-CardContainer.propTypes = {};
+CardContainer.propTypes = {
+  margin: PropTypes.string,
+  masterMargin: PropTypes.string,
+  data: PropTypes.object.isRequired,
+};
 
 export default CardContainer;
