@@ -39,7 +39,7 @@ Template from Frontend Mentor, and below the pixel perfect reproduction.
 
 - [Next for UI building](https://github.com/P-NBLT/static-website-project/blob/main/pages/index.js) 🐣
 - [Contentful as CMS](https://github.com/P-NBLT/static-website-project/blob/main/util/contentfulPost.js) 🐣
-- [StoryBook for documentation] (https://github.com/P-NBLT/static-website-project/blob/main/stories/Button.stories.jsx)🐣
+- [StoryBook for documentation](https://github.com/P-NBLT/static-website-project/blob/main/stories/Button.stories.jsx)🐣
 - [Reusable atoms](https://github.com/P-NBLT/static-website-project/blob/main/component/atoms/Button/Button.js)
 - [Molecule design](https://github.com/P-NBLT/static-website-project/blob/main/component/molecules/CardContainer/CardContainer.js)
 
