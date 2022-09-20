@@ -1,5 +1,17 @@
 # Basic static website using reusable component.
 
+---
+
+# Goal for this project
+---
+
+1. Implement responsive design.
+2. Write reusable components.
+3. Learn how to use contentful CMS to fetch content.
+4. Static generation using Next.js for better performance.
+
+--- 
+
 [Find out a working version here](https://static-web-with-reusable-component.netlify.app/)
 
 # Table of contents
@@ -15,6 +27,9 @@
 App demo
 ---
 
+Template from Frontend Mentor, and below the pixel perfect reproduction.
+<img width="622" alt="frontendMentor-screenShot" src="https://user-images.githubusercontent.com/98712114/191214267-7ef2bd10-62f7-4cda-bd6a-ed6ee08cb35c.png">
+
 ![Alt Text](/media/static-web.gif)
 
 
@@ -29,8 +44,3 @@ App demo
 - [Molecule design](https://github.com/P-NBLT/static-website-project/blob/main/component/molecules/CardContainer/CardContainer.js)
 
 🐣 *New technology learned during this project*
-
-# Goal for this project
----
-
-It was important for me to be able to design a system where components could be reused easily at the liking of my "imaginary colleague". Therefore once you know the possible design, or data options that can be applied to a component, anyone can build a website in no time. But it also offer enough flexibility so you can design your own component if the options are not of your liking.
