@@ -28,6 +28,7 @@ App demo
 ---
 
 Template from Frontend Mentor, and below the pixel perfect reproduction.
+
 <img width="622" alt="frontendMentor-screenShot" src="https://user-images.githubusercontent.com/98712114/191214267-7ef2bd10-62f7-4cda-bd6a-ed6ee08cb35c.png">
 
 ![Alt Text](/media/static-web.gif)
