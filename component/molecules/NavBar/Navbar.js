@@ -8,7 +8,7 @@ const Navbar = ({ children, contentful, margin, ...props }) => {
   return (
     <div className={`${styles.nav} ${classNames} ${props.className}`}>
       <Logo variant="dark" size="logo-pic" />
-      <Button font="buttonFont" variant="defaultSmall primary">
+      <Button font="buttonFont" variant="primary" size="defaultSmall">
         {contentful}
       </Button>
     </div>

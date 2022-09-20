@@ -15,7 +15,7 @@ const HeadContainer = ({
       <SubTitle font="body" margin="mg_tp_bt_header">
         {paragraphContent}
       </SubTitle>
-      <Button font="buttonFont" variant="default secondary">
+      <Button font="buttonFont" variant="secondary" size="default">
         {buttonContent}
       </Button>
     </section>

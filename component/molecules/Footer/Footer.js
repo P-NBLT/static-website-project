@@ -11,7 +11,7 @@ const Footer = ({ children, contentful, variant, ...props }) => {
   return (
     <div {...props} className={classNames}>
       <Logo variant="light" size="logo-pic" />
-      <Button font="buttonFont" variant="defaultSmall ternary">
+      <Button font="buttonFont" variant="tertiary" size="defaultSmall">
         {contentful}
       </Button>
     </div>

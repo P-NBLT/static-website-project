@@ -31,11 +31,11 @@
   opacity: 0.5;
 }
 
-.ternary {
+.tertiary {
   background-image: var(--gradient-purple);
 }
 
-.ternary:hover {
+.tertiary:hover {
   opacity: 0.5;
 }
 
