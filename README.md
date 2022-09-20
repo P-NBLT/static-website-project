@@ -5,7 +5,7 @@
 # Goal for this project
 ---
 
-1. Implement responsive design.
+1. Implement responsive design from figma 'pixel perfect'.
 2. Write reusable components.
 3. Learn how to use contentful CMS to fetch content.
 4. Static generation using Next.js for better performance.
